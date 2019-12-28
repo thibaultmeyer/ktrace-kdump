@@ -1,0 +1,69 @@
+#ifndef _H_IOCTL_REVERSE_H_
+# define _H_IOCTL_REVERSE_H_
+# include <sys/param.h>
+# include <sys/devicestat.h>
+# include <sys/disklabel.h>
+# include <sys/socket.h>
+# include <sys/time.h>
+# include <sys/tty.h>
+# include <net/ethernet.h>
+# include <net/if.h>
+# include <net/if_var.h>
+# include <net/pfvar.h>
+# include <net/route.h>
+# include <netinet/in.h>
+# include <netinet/ip_mroute.h>
+# include <netinet6/in6_var.h>
+# include <netinet6/nd6.h>
+# include <netinet6/ip6_mroute.h>
+# include <stdio.h>
+# include <cam/cam.h>
+# include <sys/fbio.h>
+# include <sys/diskmbr.h>
+ # include <sys/sysctl.h>
+ # include <sys/watchdog.h>
+ # include <sys/kbio.h>
+ # include <sys/ioctl.h>
+ # include <sys/dvdio.h>
+ # include <sys/param.h>
+ # include <sys/dataacq.h>
+ # include <sys/aac_ioctl.h>
+ # include <sys/ioccom.h>
+ # include <sys/tiio.h>
+ # include <sys/diskpc98.h>
+ # include <sys/disk.h>
+ # include <sys/consio.h>
+ # include <sys/snoop.h>
+ # include <sys/timepps.h>
+ # include <sys/sockio.h>
+ # include <sys/pciio.h>
+ # include <sys/memrange.h>
+ # include <sys/xrpuio.h>
+ # include <sys/uio.h>
+ # include <sys/filio.h>
+ # include <sys/chio.h>
+ # include <sys/device_port.h>
+ # include <sys/joystick.h>
+ # include <sys/fdcio.h>
+ # include <sys/pioctl.h>
+ # include <sys/mdioctl.h>
+ # include <sys/mtio.h>
+ # include <sys/disklabel.h>
+ # include <sys/ptio.h>
+ # include <sys/cdio.h>
+ # include <sys/ttycom.h>
+ # include <sys/mouse.h>
+ # include <sys/digiio.h>
+ # include <sys/soundcard.h>
+ # include <sys/_iovec.h>
+ # include <sys/agpio.h>
+ # include <sys/cdrio.h>
+ # include <sys/ioctl_compat.h>
+ # include <sys/malloc.h>
+ # include <sys/fbio.h>
+ # include <sys/ata.h>
+
+const char*	get_ioctl_define_name(u_long value);
+
+#endif
+
